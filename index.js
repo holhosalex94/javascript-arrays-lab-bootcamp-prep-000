@@ -8,12 +8,10 @@ function destructivelyPrependKitten(name){
   int.unshift(name);
 }
 function destructivelyRemoveLastKitten(){
- //var int = [].concat(kittens);
  var int = kittens;
   int.pop();
 }
 function destructivelyRemoveFirstKitten(){
- //var int = [].concat(kittens);
  var int = kittens;
   int.shift();
 }
