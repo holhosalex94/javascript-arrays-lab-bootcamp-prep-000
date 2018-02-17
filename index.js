@@ -1,1 +1,5 @@
-const app = "I don't do much."
+const app = "I do do much."
+function destructivelyAppendKitten(name){
+  
+  
+}
