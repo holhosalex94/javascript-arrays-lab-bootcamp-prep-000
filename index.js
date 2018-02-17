@@ -30,7 +30,7 @@ function removeLastKitten(){
   int.pop();
   return int;
 }
-function removeFirsttKitten(){
+function removeFirstKitten(){
   var int = [].concat(kittens);
   int.slice(1);
   return int;
