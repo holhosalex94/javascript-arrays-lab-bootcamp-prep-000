@@ -20,3 +20,8 @@ function appendKitten(name){
   int.push(name);
   return int;
 }
+function prependKitten(name){
+  var int = [].concat(kittens);
+  int.unshift(name);
+  return int;
+}
