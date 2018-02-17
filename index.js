@@ -32,6 +32,6 @@ function removeLastKitten(){
 }
 function removeFirstKitten(){
   var int = [].concat(kittens);
-  int.slice(1);
+  int.unshift();
   return int;
 }
