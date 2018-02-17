@@ -15,5 +15,5 @@ function destructivelyRemoveLastKitten(){
 function destructivelyRemoveFirstKitten(){
  //var int = [].concat(kittens);
  var int = kittens;
-  int.slice(1);
+  int.shift();
 }
